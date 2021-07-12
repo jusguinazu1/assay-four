@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>web</title>
+        <link rel="stylesheet" href="base_style.css">
+
+    </head>
+    <header>   
+        <div id="superioruno">   
+            <div id="superiorcontenedor">
+                <nav>
+                    <ul>
+                        <li><a href="{% url 'home' %}">Inicio</a></li>
+                        <li><a href="{% url 'turn page' %}">Turnos</a></li>
+                        <li><a href="{% url 'contact us' %}">Contacto</a></li>
+                        <li><a href="{% url 'FAQ page' %}">Preguntas Frecuentes</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="home_title">
+                <h1 class="mt-2">Estudio Jurídico Laumann y Asociados Web</h1>
+                
+                <p>Bienvenido a la página web del Estudio Jurído Previsional Laumann y Asociados. En Esta
+                página podrá acceder a la información de contacto del Estudio Jurídico, la trayectoria
+                profesional de la Doctora <b>María Angélica Laumann</b>, además de poder pedir y controlar los
+                turnos a su nombre.
+                </p>
+            </div>
+        </div>
+    </header>
+    <body>
+        <section id="principal">
+
+        </section>
+        <section id="parteuno">
+            <div id="home_subtitle1", name"home_subtitle1", class="home">
+                <h2 class="mt-2">Cómo uso este sitio web</h2>
+                
+                <p>Si usted tiene una consulta para hacerle a la Doctora revise primero el apartado <b>"<a href="{% url 'contact us' %}">Preguntas Frecuentes</a>"</b>.
+                Para hacerlo posicione su puntero sobre dicha palabra y presione allí, de esta forma usted será redireccionado.
+                <br></br>
+                Si por otra parte desea saber la información de contacto y la ubicación del Estudio, siga el mismo procedimiento con la palabra
+                <b>"<a href="{% url 'contact us' %}">Contacto</a>"</b>.
+                <br></br>
+                Si usted desea pedir o consultar su turno, una vez más siga el procedimiento descrito anteriormente pero con la palabra 
+                <b>"<a href="{% url 'turn page' %}">Turno</a>"</b>. Una vez allí podrá o bien pedir su turno llenando los campos requeridos o consultarlo
+                usando el apartado adecuado.
+                <br></br>
+                En la eventualidad de querer volver al <b>"<a href="{% url 'home' %}">Inicio</a>"</b> puede seguir el mismo procedimiento que para los casos anteriores.
+                <br></br>
+                Por último recuerde que la barra a su izquierda se utiliza para navegar y las palabras claves allí cumplen la misma función que las aquí descriptas.
+            </p>
+            </div>
+        </section>
+        <section id="partedos">
+            <link rel="stylesheet" href="{% static 'css/FAQ_styles.css' %}">
+            <div id="FAQ_title", name"FAQ_title", class="FAQ">
+                <h1 class="mt-2">Preguntas Frecuentes</h1>
+                <p><hr class="mt-0 md-4" color="black"></hr>
+                <b>P: ¿Que tipo de trámites realiza el Estudio?</b>
+                <li>R: Jubilaciones pensiones, reajustes, reclamos, reclamos a las ART., amparos por mora, sucesiones, laboral</li>
+                <hr class="mt-0 md-4" color="black"></hr>
+                <b>P: ¿Cuántos años de edad y servicios son necesarios para poder jubilarse?</b>
+                <li>R: La edad y cantidad de servicios cuando los servicios son comunes con de 65 años y 30 de servicios para los hombres y 60 años y 30 de servicios para las mujeres cuando los servicios son del orden nacional (Anses) y de 60 años y 35 de servicios tanto para hombres como para mujeres en la órbita del instituto de previsión de la provincia de Buenos Aires.</li>
+                <hr class="mt-0 md-4" color="black"></hr>
+                <b>P: ¿Cuánto demora hacer un reajuste de haberes contra Anses?</b>
+                <li>R: Con la digitalización se han acelerado los tiempos pero de todos modos desde que se hace el reclamo administrativo hasta que se logra sentencia firme toma en promedio 3 años aproximadamente. Además hay que considerar el tiempo que se toma Anses para liquidar.</li>
+                <hr class="mt-0 md-4" color="black"></hr>
+                <b>P: ¿Se puede hacer juicio por reajuste de haberes contra Anses si antes ya logré una sentencia en ese sentido?</b>
+                <li>R: Si se puede, solo que tendra efecto unicamente desde la anterior sentencia hasta la nueva, no pueden revisarse los períodos viejos, los cuales ya tuvieron una sentencia anterior en virtud del principio de la "cosa juzgada".</li>
+                <hr class="mt-0 md-4" color="black"></hr>
+                <b>P: ¿Si estoy conviviendo con alguien y el conviviente fallece tengo derecho a la pensión?</b>
+                <li>R: Si, la ley ha reconocido derechos al conviviente sobreviviente casi en forma exclusiva a percibir la pensión de el/ella derivada. por supuesto hay que acreditar esa convivencia.</li>
+                <hr class="mt-0 md-4" color="black"></hr>
+                <b>P: ¿Hasta que edad los hijos tiene. Derecho a la pensión derivada de alguno de sus padres?</b>
+                <li>R: Hasta los 18 años en Anses y hasta los 25 en la órbita del instituto de previsión social siempre que acredite que estudian y su carácter es el de "regular".</li>
+                <hr class="mt-0 md-4" color="black"></hr>
+                <b>P: Si trabaje una parte de mí vida en dependencias cuyos aportes corresponde al instituto de previsión y en otra parte a la Anses ¿En qué caja me jubilo?</b>
+                <li>R: Se jubila en la caja donde mayor cantidad de aportes tiene</li>
+                <hr class="mt-0 md-4" color="black"></hr>
+                <b>P: ¿Cuáles son los requisitos para jubilarse por invalidez?</b>
+                <li>R: Para poder tener derecho a RTI es necesario tener cierta cantidad de aportes y el 66 % de incapacidad dada por la junta médica correspondiente y en caso de denegatoria se puede acudir a la justicia en muchos casos.</li>
+                <hr class="mt-0 md-4" color="black"></hr>
+                </p>
+            </div>
+
+        </section>
+        <section id="partetres">
+            <link rel="stylesheet" href="{% static 'css/turn_styles.css' %}">
+            <link rel="stylesheet" href="{% static 'css/turn_styles.css' %}">
+            <div id="turn_title", name"turn_title", class="turn">
+                <h1 class="mt-2">Turnos</h1>
+                <hr class="mt-0 md-4" color="black"></hr>
+                <p>Este apartado sigue en desarrollo, por favor regrese a la página de inicio</p>
+            </div>
+            <div id="turn_title", name"turn_title", class="turn">
+            <h1 class="mt-2">Contacte Con Nosotros</h1>
+                <p><hr class="mt-0 md-4" color="black"></hr>
+                Horario de antención telefónica:
+                <li>Lunes a viernes de 09:00hs a 16:00hs</li>
+                <br>
+                Horario de antención presencial:</br>
+                Únicamente con turno previo hasta que la situación de la pandemia cambie<br>
+                </br>
+                Teléfonos de contacto:
+                <li>221-421-3756 (Teléfono de línea)</li>
+                <li>221-525-0538 (Teléfono para llamadas y Whatsapp)</li>
+                <br>
+                Dirección:
+                <li>Calle 8 N°835 e/ 48 y 49, <b>Gallería Williams</b>, piso 8, oficina 812</li></p>
+            </div>
+            <img src="map1.png">
+
+        </section>
+    </body>
+
+
+</html>
