@@ -6,33 +6,30 @@
         <link rel="stylesheet" href="base_style.css">
 
     </head>
-    <header>   
-        <div id="superioruno">   
-            <div id="superiorcontenedor">
-                <nav>
-                    <ul>
-                        <li><a href="{% url 'home' %}">Inicio</a></li>
-                        <li><a href="{% url 'turn page' %}">Turnos</a></li>
-                        <li><a href="{% url 'contact us' %}">Contacto</a></li>
-                        <li><a href="{% url 'FAQ page' %}">Preguntas Frecuentes</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="home_title">
-                <h1 class="mt-2">Estudio Jurídico Laumann y Asociados Web</h1>
-                
-                <p>Bienvenido a la página web del Estudio Jurído Previsional Laumann y Asociados. En Esta
-                página podrá acceder a la información de contacto del Estudio Jurídico, la trayectoria
-                profesional de la Doctora <b>María Angélica Laumann</b>, además de poder pedir y controlar los
-                turnos a su nombre.
-                </p>
-            </div>
-        </div>
-    </header>
     <body>
-        <section id="principal">
-
-        </section>
+        <header>   
+            <div id="supremo">   
+                <div id="contenedor">
+                    <nav>
+                        <ul>
+                            <li><a class="top" href="{% url 'home' %}">Inicio</a></li>
+                            <li><a class="top" href="{% url 'turn page' %}">Turnos</a></li>
+                            <li><a class="top" href="{% url 'contact us' %}">Contacto</a></li>
+                            <li><a class="top" href="{% url 'FAQ page' %}">Preguntas Frecuentes</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="home_title">
+                    <h1>Estudio Jurídico Laumann & Asociados Web</h1>
+                    
+                    <p class="parrafouno">Bienvenido a la página web del Estudio Jurído Previsional Laumann y Asociados. En Esta
+                    página podrá acceder a la información de contacto del Estudio Jurídico, la trayectoria
+                    profesional de la Doctora <b>María Angélica Laumann</b>, además de poder pedir y controlar los
+                    turnos a su nombre.
+                    </p>
+                </div>
+            </div>
+        </header>
         <section id="parteuno">
             <div id="home_subtitle1", name"home_subtitle1", class="home">
                 <h2 class="mt-2">Cómo uso este sitio web</h2>
@@ -84,7 +81,7 @@
                 <hr class="mt-0 md-4" color="black"></hr>
                 </p>
             </div>
-
+        
         </section>
         <section id="partetres">
             <link rel="stylesheet" href="{% static 'css/turn_styles.css' %}">
@@ -111,9 +108,7 @@
                 <li>Calle 8 N°835 e/ 48 y 49, <b>Gallería Williams</b>, piso 8, oficina 812</li></p>
             </div>
             <img src="map1.png">
-
+        
         </section>
     </body>
-
-
 </html>
