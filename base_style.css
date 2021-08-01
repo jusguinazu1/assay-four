@@ -1,7 +1,7 @@
 body{
     font-family: 'Lucida Sans';
     margin: 0px;
-    background-color: #ecebe6;
+    background-color: #c7dbe7;
 }
 /*header*/
 #contenedor{
@@ -44,11 +44,27 @@ h1{
 }
 header{
     
-    background: url(lady.jpg);
+    background: url(bg.png);
     height: 100vh;
     background-size: cover;
 }
 /*parte uno*/
 #parteuno{
-    margin: 15px;
+    
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+#home_subtitle1 h2{
+    text-align: center;
+    margin-top: 0px;
+}
+.parrafodos p{
+    margin: 25px;
+    box-shadow: 1px 1px 14px #ccc;
+    padding: 10px;
+    background-color: #f9fafc;
+}
+.parrafodos{
+    
 }
